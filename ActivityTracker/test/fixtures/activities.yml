@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  calories: 1
+  reps: 1
+  sets: 1
+  distance: 1
+  intensity_level: 1
+  max_heart_rate: 1
+  references: 
+  references: 
+  references: 
+
+two:
+  calories: 1
+  reps: 1
+  sets: 1
+  distance: 1
+  intensity_level: 1
+  max_heart_rate: 1
+  references: 
+  references: 
+  references: 

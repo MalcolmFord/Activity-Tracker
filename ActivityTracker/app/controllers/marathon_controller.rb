@@ -1,0 +1,2 @@
+class MarathonController < ApplicationController
+end
