@@ -1,2 +1,17 @@
-<h1>Dashboard</h1>
-<%= @user.first_name%>
+<main class="container-fluid d-flex h-100 flex-column">
+    <div class="row flex-grow-1">
+    <%# Side nav section %>
+        <div class="col-md-2 bg-dark">
+            <h1>Dashboard</h1>
+        </div>
+    <%# Main info section %>
+        <div class="col-md-10">
+            <%= @user.first_name%>
+            <%= @user.last_name%>
+            <%= @user.date_of_birth%>
+            <%= @user.email%>
+            <%= @user.weight%>
+            <%= @user.goal_weight%>            
+        </div>
+    </div>
+</main>
